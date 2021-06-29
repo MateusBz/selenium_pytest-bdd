@@ -1,4 +1,4 @@
-Feature: Log in to the applicationI wanr
+Feature: Log in to the application
 
     I want to test logging in at the-internet.herokuapp.com
     
@@ -10,7 +10,7 @@ Feature: Log in to the applicationI wanr
         Then <message> is shown
 
         Examples:
-            | user_name | password                  | message                     |
+            | user_name | password                  | message                           |
             |           |                           | Your username is invalid!         |
             | tomsmith  | 1234                      | Your password is invalid!         |
             | 1234      | SuperSecretPassword!      | Your username is invalid!         |
