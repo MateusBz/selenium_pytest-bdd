@@ -14,6 +14,6 @@ Python, Selenium WebDriver, Pytest-bdd.
 - [step_definitions](https://github.com/MateusBz/selenium_pytest-bdd/tree/main/tests/step_definitions) - 
 conftest file, code for each step of the feature
 
-### List of test
+### Test List
 - Form Authentication
 - Context Menu
