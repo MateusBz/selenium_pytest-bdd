@@ -16,3 +16,4 @@ conftest file, code for each step of the feature
 
 ### List of test
 - Form Authentication
+- Context Menu
