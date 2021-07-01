@@ -10,4 +10,4 @@ def driver_init(request) -> webdriver:
     if request.param == 'chrome':
         web_driver = webdriver.Chrome(executable_path='./drivers/chromedriver')
     yield web_driver
-    web_driver.close()
+    web_driver.quit()
