@@ -6,7 +6,7 @@ Tests are written using BDD technique.
 ### Technologies: 
 Python, Selenium WebDriver, Pytest-bdd.
 
-### Project Structure
+### Project Structure:
 - [drivers](https://github.com/MateusBz/selenium_pytest-bdd/tree/main/drivers) - there are drivers for each browser
 - [features](https://github.com/MateusBz/selenium_pytest-bdd/tree/main/tests/features) - requirements, scenarios, and test steps
 - [locators](https://github.com/MateusBz/selenium_pytest-bdd/tree/main/tests/locators) - there are locators of web elements
@@ -14,6 +14,6 @@ Python, Selenium WebDriver, Pytest-bdd.
 - [step_definitions](https://github.com/MateusBz/selenium_pytest-bdd/tree/main/tests/step_definitions) - 
 conftest file, code for each step of the feature
 
-### Test List
+### Test List:
 - Form Authentication
 - Context Menu
