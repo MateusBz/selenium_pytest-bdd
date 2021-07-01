@@ -10,7 +10,7 @@ def test_error_message(driver_init):
     pass
 
 
-@given('I go to "/login"')
+@given('I go to "login"')
 def go_to_login_page(driver_init):
     page = BasePage(driver_init)
     page.visit('login')
